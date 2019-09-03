@@ -1,0 +1,31 @@
+title: Hackahton 2019
+meta_author: <CANAL TECH/>
+gh_repo: "https://github.com/canalplus/hackathon2019"
+
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: FFF #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 3bc1c2 #2c3e50
+  secondary-dark: 111 #233140 #233140
+  tertiary: 004C4C #00EFEF
+
+# Footer settings
+footer:
+  copyright: Dr. Henry Jekyll
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+camp:
+  date: 7 et 8 Novembre 2019
+  key-words: LEAD THE CHANGE
+
+# Social Sharing
+twitter:
+  username               : CanalTechTeam
+medium:
+  username               : canal-tech
+  app_id                 :
+  publisher              : plusdedev
