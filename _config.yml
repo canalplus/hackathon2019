@@ -1,4 +1,4 @@
-title: Hackahton 2019
+title: Hackathon 2019
 meta_author: <CANAL TECH/>
 gh_repo: "https://github.com/canalplus/hackathon2019"
 
@@ -9,7 +9,7 @@ color:
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 3bc1c2 #2c3e50
   secondary-dark: 111 #233140 #233140
-  tertiary: 004C4C #00EFEF
+  tertiary: 174C4C #00EFEF
 
 # Footer settings
 footer:
@@ -19,8 +19,9 @@ footer:
   credits: Credits
 
 camp:
-  date: 7 et 8 Novembre 2019
+  date: 7-8 Novembre 2019
   key-words: LEAD THE CHANGE
+  apply-form: https://forms.office.com
 
 # Social Sharing
 twitter:

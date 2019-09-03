@@ -62,7 +62,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.secondary }};
 }
 
 hr.star-primary {
@@ -272,21 +272,37 @@ section.success {
     }
 }
 
+.btn-floating {
+    display: block;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+}
+
+.btn-primary{
+    color: #{{ site.color.secondary }};;
+    background-color: #{{ site.color.primary }};;
+}
+.btn-secondary{
+    color: #{{ site.color.primary }};;
+    background-color: #{{ site.color.secondary }}; 
+}
+.btn-tertiary{
+    color: #{{ site.color.primary }};;
+    background-color: #{{ site.color.tertiary }}; 
+}
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #{{ site.color.secondary }};;
     font-size: 20px;
-    color: #{{ site.color.primary }};;
-    background: 0 0;
-    transition: all .3s ease-in-out;
+    
+    transition: all .4s ease-in-out;
 }
 
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    background-color: #{{ site.color.secondary }};;
-    color: #fff;
+    background-color: #{{ site.color.tertiary }};;
 }
 
 .floating-label-form-group {
