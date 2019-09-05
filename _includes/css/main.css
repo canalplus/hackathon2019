@@ -542,11 +542,8 @@ footer {
 }
 
 footer img {
-    position: absolute;
-    width: 60px;
-    bottom: 15px;
-    right: 4%;
-    z-index: 0;
+    width: 120px;
+    vertical-align: text-bottom;
 }
 
 footer .page__footer-follow ul {
