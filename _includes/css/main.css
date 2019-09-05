@@ -79,7 +79,7 @@ hr.star-primary:after {
 }
 
 .img-responsive {
-    max-width: 60%;
+    max-width: 60vh;
 }
 
 header {
