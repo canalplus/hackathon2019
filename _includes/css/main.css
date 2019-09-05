@@ -48,11 +48,11 @@ hr.star-primary {
 hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
+    font-family: FontAwesome;
     display: inline-block;
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
     font-size: 2em;
 }
 
@@ -186,7 +186,7 @@ header .intro-text .skills {
 }
 
 .navbar-fixed-top .navbar-brand img {
-    min-width: 6em;
+    min-width: 11em;
 }
 
 section {
@@ -277,11 +277,7 @@ section.success {
     position: fixed;
     right: 3%;
     bottom: 4%;
-}
-@media(max-width:1600px) {
-    .btn-floating {
-        display: none;
-    }
+    z-index: 99999;
 }
 
 .btn-primary{
@@ -496,6 +492,9 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
+.fa{
+    font-family: FontAwesome !important;
+}
 
 .video {
     padding-top: 1em;
@@ -544,8 +543,8 @@ footer {
 
 footer img {
     position: absolute;
-    width: 50px;
-    bottom: 20px;
+    width: 60px;
+    bottom: 15px;
     right: 4%;
     z-index: 0;
 }

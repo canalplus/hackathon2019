@@ -25,8 +25,10 @@ camp:
 
 # Social Sharing
 twitter:
-  username               : CanalTechTeam
+  username : CanalTechTeam
+dailymotion:
+  username: plusdedev
 medium:
-  username               : canal-tech
-  app_id                 :
-  publisher              : plusdedev
+  username : canal-tech
+github:
+  username: canalplus

@@ -1,5 +1,5 @@
 <footer>
-  <img src="{{ '/img/plusdedev.png' | relative_url }}" />
+  <!-- <img src="{{ '/img/CANAL_TECH_Squared.gif' | relative_url }}" /> -->
   <div class="page__footer-follow container">
     <ul class="social-icons">
       {% if site.data.ui-text[site.locale].follow_label %}
@@ -9,13 +9,16 @@
         <li><a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
       {% endif %}
       {% if site.medium.username %}
-        <li><a href="https://medium.com/{{ site.medium.username }}" target="_blank"><i class="fa fa-fw fa-medium-square" aria-hidden="true"></i> Medium</a></li>
+        <li><a href="https://medium.com/{{ site.medium.username }}" target="_blank"><i class="fa fa-fw fa-medium" aria-hidden="true"></i>Medium</a></li>
       {% endif %}
       {% if site.facebook.username %}
         <li><a href="https://facebook.com/{{ site.facebook.username }}" target="_blank"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
       {% endif %}
-      {% if site.author.github %}
-        <li><a href="http://github.com/{{ site.author.github }}" target="_blank"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      {% if site.dailymotion.username %}
+        <li><a href="http://dailymotion.com/{{ site.dailymotion.username }}" target="_blank"><i class="fa fa-fw fa-play" aria-hidden="true"></i> Dailymotion</a></li>
+      {% endif %}
+      {% if site.github.username %}
+        <li><a href="http://github.com/{{ site.github.username }}" target="_blank"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
       {% endif %}
     </ul>
   </div>
