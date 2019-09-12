@@ -8,11 +8,11 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.6em;
 }
 
 p.small {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 a,
@@ -39,7 +39,7 @@ hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
-    max-width: 250px;
+    max-width: 200px;
     border: 0;
     border-top: solid 5px;
     text-align: center;
@@ -98,40 +98,34 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .key-words {
-    font-size: 2.2em;
-    font-weight: 700;
-    color: #{{ site.color.tertiary }};
-}
-
-header .intro-text .name {
+header .intro-text span{
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.8em;
     font-weight: 700;
+    opacity: 0.8;
 }
 
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+header .intro-text .name {
+    font-size: 1.3em;
 }
+
+header .intro-text .key-words {
+    font-size: 1.2em;
+    color: #{{ site.color.tertiary }};
+}
+header .intro-text .date {
+    font-size: 1.1em;
+}
+
 
 @media(min-width:768px) {
     header .container {
         padding-bottom: 100px;
     }
 
-    header .intro-text .name {
+    header .intro-text{
         font-size: 3.75em;
-    }
-    
-    header .intro-text .key-words {
-        font-size: 3.75em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
     }
 }
 
@@ -509,13 +503,6 @@ footer .footer-below {
         height: 60%;
         width: 80%;
     }
-}
-.key-words {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.2em;
-    font-weight: 700;
 }
 
 #about .col-lg-8,

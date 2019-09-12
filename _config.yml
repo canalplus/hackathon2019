@@ -1,7 +1,8 @@
 title: Hackathon 2019
 meta_author: <CANAL TECH/>
 gh_repo: "https://github.com/canalplus/hackathon2019"
-
+site:
+  description: HACKATHON CANAL+ 2019
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -19,7 +20,8 @@ footer:
   credits: Credits
 
 camp:
-  date: 7-8 Novembre 2019
+  date: 7 Novembre 2019
+  name: HACKATHON CANAL+ 2019
   key-words: LEAD THE CHANGE
   apply-form: https://forms.office.com/Pages/ResponsePage.aspx?id=4V1cv1RqkUCnL5DjKAFijMO4Qf8iSZNAizZVruomREtUMk1aVUFDTENSMkhMMDJPQUVCNFhWVkZPTi4u
 
