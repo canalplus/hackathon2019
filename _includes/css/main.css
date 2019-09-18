@@ -36,8 +36,10 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
+div.star-light,
+div.star-primary,
+div.star-light,
+div.star-primary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 200px;
@@ -46,8 +48,8 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
+div.star-light:after,
+div.star-primary:after{
     content: "\f005";
     font-family: FontAwesome;
     display: inline-block;
@@ -57,20 +59,20 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
-hr.star-light {
+div.star-light{
     border-color: #fff;
 }
 
-hr.star-light:after {
+div.star-light:after{
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
 
-hr.star-primary {
+div.star-primary {
     border-color: #{{ site.color.secondary }};
 }
 
-hr.star-primary:after {
+div.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
 }
